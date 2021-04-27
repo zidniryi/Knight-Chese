@@ -7,7 +7,7 @@ const Chess = require("chess.js");
 
 const App: React.FC = () => {
   const [chess] = useState<ChessInstance>(
-    new Chess("rnbqkbnr/pp1ppppp/8/2p5/4P3/5N2/PPPP1PPP/RNBQKB1R b KQkq - 1 2")
+    new Chess("rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1")
   );
 
   const [fen, setFen] = useState(chess.fen());
